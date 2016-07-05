@@ -50,10 +50,9 @@ CHARGING_ENABLED_PATH := "/sys/class/power_supply/battery/batt_lp_charging"
 BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
 # TWRP specific build flags
 ## Multirom
-MR_INIT_DEVICES := device/samsung/delos3geur/multirom/mr_init_devices.c
+MR_INIT_DEVICES := device/samsung/a8eltezh/multirom/mr_init_devices.c
 MR_FSTAB := device/samsung/a8eltezh/recovery.fstab
 MR_DPI := hdpi
-MR_INIT_DEVICES := device/samsung/delos3geur/multirom/mr_init_devices.c
 MR_KEXEC_MEM_MIN := 0x80000000
 ##
 TW_THEME := portrait_hdpi
